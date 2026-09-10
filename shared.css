@@ -1,0 +1,129 @@
+/*https://coolors.co/242038-7785ac-f7f4f3-3f6c51-3a5743*/
+
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+    background-color: #242038;
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P';
+}
+
+button {
+    font-family: 'Press Start 2P';
+}
+
+body {
+    background-color: #7785ac;
+    width: 80%;
+    min-height:90vh;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+    padding-bottom: 100px;
+}
+
+my-header {
+    display: contents;
+}
+my-footer {
+    display: contents;
+}
+
+my-opener {
+    display: contents;
+}
+
+header {
+    border-bottom: #3f6c51 4px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#navigationButtons {
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 30px;
+}
+
+#navigationButtons button {
+    background-color: #3f6c51;
+    color: #f7f4f3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+#opener {
+    background-color: #3f6c51;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+
+#opener form {
+    display: flex;
+    flex-direction: column;
+    padding:25px;
+    row-gap:15px;
+}
+
+#opener form label {
+    display: flex;
+    flex-direction: column;
+}
+
+#opener form input {
+    font-size: 16px;
+    font-family: 'Press Start 2P';
+}
+
+#navigationButtons button:hover {
+    background-color: #3a5743;
+}
+
+#contentButtons {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#contentButtons button {
+    background-color: #3f6c51;
+    color: #f7f4f3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+}
+
+footer {
+    border-top: #3f6c51 4px solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom:0px;
+}
